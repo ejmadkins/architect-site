@@ -7,6 +7,40 @@
     <header>
       <h1>Contact</h1>
     </header>
+    <p>
+      We'd love to hear from you!  If you'd like to get in contact fill out the
+      below form.
+    </p>
+    <form>
+      <fieldset>
+        <legend>Personal Details:</legend>
+        <label>
+          Username:
+          <input type="text" name="username" />
+        </label>
+        <label>
+          Email:
+          <input type="email" name="email" />
+        </label>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Reason for getting in touch:</legend>
+        <label>
+        What would you like to discuss?
+        <select name="reason">
+          <option value="javascript">Javascript</option>
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+        </select>
+        <br />
+        <br />
+        <label>
+          Further Detail:
+          <textarea id="detail" placeholder="Let us know more"></textarea>
+        </label>
+      </fieldset>
+    </form>
     <footer>2022 Ed Adkins</footer>
   </body>
 </html>
